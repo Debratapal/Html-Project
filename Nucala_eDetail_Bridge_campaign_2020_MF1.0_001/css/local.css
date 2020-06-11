@@ -1,0 +1,258 @@
+/* Local CSS */
+
+.referencesTest {
+    position: absolute;
+    top: 40rem;
+    left: 630rem;
+}
+
+
+/*** CSS VV ***/
+
+.bg {
+    background-color: #4a4a49;
+}
+
+.bg_content {
+    background-color: #fff;
+    border-radius: 10rem;
+    border: 1rem solid #fff;
+    height: 675rem;
+    position: absolute;
+    width: 937rem;
+    top: 51rem;
+    left: 4%;
+}
+
+
+
+.pageHeading {
+    font: normal 29rem 'Termina-Black';
+    position: absolute;
+    color: #d13239;
+    top: 77rem;
+    left: 72rem;
+    width: 840rem;
+}
+
+.patient_profile {
+    position: absolute;
+    top: 210rem;
+    left: 68rem;
+    height: 460rem;
+    width: 900rem;
+    list-style: none;
+}
+
+.patient_profile ul {
+    width: 100%;
+}
+
+.patient_profile li {
+    display: inline-block;
+    width: 211rem;
+    height: 30rem;
+    margin-left: auto;
+    margin-right: 13rem;
+    vertical-align: top;
+}
+
+.patient_profile li:nth-child(4) {
+    margin-left: 0rem;
+    margin-right: 0rem;
+}
+
+
+.patient_profile li img {
+    border-radius: 50%;
+    width: 160rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.patient_profile li .head_t {
+    border-bottom: 1rem solid #4a4a49;
+    height: 49rem;
+}
+
+
+.patient_profile li .head_t p {
+    font: 18rem 'Akzidenz-Grotesk-Md';
+    color: #d13239;
+    margin-top: 9rem;
+}
+
+.patient_profile li .head_age {
+    font: 13rem 'Akzidenz-Grotesk-Md';
+    border-bottom: 1rem solid #4a4a49;
+    height: 25rem;
+    padding-top: 4rem;
+}
+
+.patient_profile li .head_age span {
+    font: 13rem 'Akzidenz-Grotesk-Light';
+}
+
+.history_t {
+    font: 13rem 'Akzidenz-Grotesk-Md';
+    padding-top: 13rem;
+}
+
+.history_t p {
+    margin-bottom: 2rem;
+}
+
+
+
+
+.history_t ul li {
+    
+    font: 12rem 'Akzidenz-Grotesk-Light';
+    height: 18rem;
+    list-style-type: disc;
+    letter-spacing: -0.2rem;
+    margin-left: 13rem;
+}
+
+.history_t ul li::before {
+    content: "\2022";
+    color: #d13239;
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+}
+
+.history_t li:nth-child(4) {
+    margin-left: 13rem;
+}
+
+.testi_t, .testi_t2, .testi_t3, .testi_t4  {
+    font: 12.4rem 'Akzidenz-Grotesk-Bold';
+    padding: 8rem;
+    list-style: square ;
+    color: #d13239;
+    line-height: 18rem;
+}
+
+.testi_t::before {
+    content: '“';
+    position: absolute;
+    left: -10rem;
+    font-size: 32rem;
+    line-height: 29rem;
+    margin-top: 0;
+}
+
+.testi_t::after {
+    content: '”';
+    position: absolute;
+    left: 190rem;
+    font-size: 32rem;
+    line-height: 36rem;
+    margin-top: 0;
+}
+
+.testi_t2::before {
+    content: '“';
+    position: absolute;
+    left: 219rem;
+    font-size: 32rem;
+    line-height: 29rem;
+    margin-top: 0;
+}
+
+.testi_t2::after {
+    content: '”';
+    position: absolute;
+    left: 279rem;
+    font-size: 32rem;
+    line-height: 36rem;
+    margin-top: 0;
+}
+
+
+.testi_t3::before {
+    content: '“';
+    position: absolute;
+    left: 448rem;
+    font-size: 32rem;
+    line-height: 29rem;
+    margin-top: 0;
+}
+
+.testi_t3::after {
+    content: '”';
+    position: absolute;
+    left: 567rem;
+    font-size: 32rem;
+    line-height: 36rem;
+    margin-top: 0;
+}
+
+
+
+.testi_t4::before {
+    content: '“';
+    position: absolute;
+    left: 676rem;
+    font-size: 32rem;
+    line-height: 29rem;
+    margin-top: 0;
+}
+
+.testi_t4::after {
+    content: '”';
+    position: absolute;
+    left: 875rem;
+    font-size: 32rem;
+    line-height: 36rem;
+    margin-top: 0;
+}
+
+.patient_profile li .plus_btn {
+    font: 25rem 'Akzidenz-Grotesk-Bold';
+    color: #d13239;
+    margin-top: 10rem;
+    width: 100%;
+    height: 44rem;
+}
+
+.patient_profile li .plus_btn_1 {
+    font: 25rem 'Akzidenz-Grotesk-Bold';
+    color: #d13239;
+    margin-top: -6rem;
+    width: 100%;
+    height: 44rem;
+}
+
+
+.foot_t {
+    position: absolute;
+    bottom: 70rem;
+    font: 12rem 'Akzidenz-Grotesk-Light';
+
+}
+
+.foot_t p {
+    margin-bottom: 0rem;
+}
+
+
+#b0-c,#b1-c,#b2-c,#b3-c,.b-foot {
+    display: none;
+}
+
+
+.cross_btn {
+    position: absolute;
+    top: 60rem;
+    right: 60rem;
+    background: url(../../shared/media/images/Cross.png) no-repeat;
+    background-size: contain;
+    width: 44rem;
+    height: 44rem;
+    z-index: 999999;
+}
+

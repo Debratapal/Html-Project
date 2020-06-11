@@ -1,0 +1,192 @@
+/* Local CSS */
+
+.referencesTest {
+    position: absolute;
+    top: 40rem;
+    left: 630rem;
+}
+
+
+/*** CSS VV ***/
+
+.bg {
+    background-color: #eeedec;
+}
+
+
+.pageHeading {
+    font: normal 29rem 'Termina-Black';
+    position: absolute;
+    color: #d13239;
+    top: 81rem;
+    left: 131rem;
+    width: 840rem;
+}
+
+
+
+
+
+/*** Box 1 start ***/
+
+.box_1 {
+    position: absolute;
+    width: 780rem;
+    height: 436rem;
+    top: 206rem;
+    left: 126rem;
+}
+
+
+.box_1 .heading_1 {
+    position: absolute;
+    width: 238rem;
+    height: 73rem;
+    top: 0rem;
+    left: 15rem;
+    border-bottom: 1rem solid #d13239;
+}
+
+.box_1 .heading_1 .home_img{ 
+    position: absolute;
+    background: url(../media/images/home_img.png) no-repeat;
+    background-size: contain;
+    width: 180rem;
+    height: 47rem;
+    left: 0rem;
+    top : 0rem;
+}
+
+.box_1 .heading_1 .text_1{ 
+    position: absolute;
+    font: normal 29rem 'Termina-Black';
+    color: #d13239;
+    left: 62rem;
+    top: 12rem;
+}
+
+
+.box_1 .heading_1 .text_2{ 
+    position: absolute;
+    font: normal 16rem 'Terminamedium';
+    color: #4a4a49;
+    left: 62rem;
+    top: 42rem;
+}
+
+
+.box_1 .heading_2 {
+    position: absolute;
+    width: 328rem;
+    height: 73rem;
+    top: 0rem;
+    left: 459rem;
+    border-bottom: 1rem solid #d13239;
+}
+
+
+.box_1 .heading_2 .build_img{ 
+    position: absolute;
+    background: url(../media/images/build_img.png) no-repeat;
+    background-size: contain;
+    width: 180rem;
+    height: 52rem;
+    left: 0rem;
+    top : 0rem;
+}
+
+.box_1 .heading_2 .text_1{ 
+    position: absolute;
+    font: normal 29rem 'Termina-Black';
+    color: #d13239;
+    left: 62rem;
+    top: 12rem;
+}
+
+
+.box_1 .heading_2 .text_2{ 
+    position: absolute;
+    font: normal 16rem 'Terminamedium';
+    color: #4a4a49;
+    left: 62rem;
+    top: 42rem;
+}
+
+
+
+.box_1 .pen_img{ 
+    position: absolute;
+    background: url(../media/images/pen_img.png) no-repeat;
+    background-size: contain;
+    width: 590rem;
+    height: 228rem;
+    left: -136rem;
+    top: 25rem;
+}
+
+
+.box_1 .syringe_img{ 
+    position: absolute;
+    background: url(../media/images/syringe_img.png) no-repeat;
+    background-size: contain;
+    width: 590rem;
+    height: 228rem;
+    left: 278rem;
+    top: 25rem;
+
+}
+
+.box_1 .content_1 {
+    position: absolute;
+    font: normal 97rem 'Termina-Black';
+    color: #d13239;
+    left: 0rem;
+    top: 248rem;
+}
+
+.box_1 .content_1a {
+    position: absolute;
+    font: normal 18rem 'Akzidenz-Grotesk-Bold';
+    color: #d13239;
+    left: 0rem;
+    top: 350rem;
+    line-height: 25rem;
+}
+
+.box_1 .content_2 {
+    position: absolute;
+    font: normal 30rem 'Termina-Black';
+    color: #4a4a49;
+    left: 318rem;
+    top: 260rem;
+    width: 500rem;
+}
+
+
+.box_1 .content_2 span {
+    color: #d13239;
+}
+
+
+
+/*** Box 1 end ***/
+
+
+
+
+
+
+/*** P Profile End ***/
+
+
+
+.foot_t {
+    position: absolute;
+    bottom: 70rem;
+    font: 12rem 'Akzidenz-Grotesk-Light';
+    left: 90rem;
+}
+
+.foot_t p {
+    margin-bottom: 1rem;
+}

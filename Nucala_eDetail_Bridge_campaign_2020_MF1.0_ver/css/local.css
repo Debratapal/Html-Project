@@ -1,0 +1,244 @@
+/* Local CSS */
+
+.referencesTest {
+    position: absolute;
+    top: 40rem;
+    left: 630rem;
+}
+
+
+/*** CSS VV ***/
+
+.bg {
+    background-color: #fff;
+}
+
+.banner_img{
+    position: absolute;
+    background: url(../media/images/banner_img.png) no-repeat;
+    background-size: 768rem 542rem;
+    width: 768rem;
+    height: 542rem;
+    left: 0rem;
+    top : 0rem;
+}
+
+.pageHeading {
+    font: normal 34rem 'Terminamedium';
+    position: absolute;
+    color: #fff;
+    top: 291rem;
+    left: 0rem;
+    width: 337rem;
+    line-height: 42rem;
+    background-color: #d13239;
+    padding: 20rem;
+}
+
+.pageHeading span {
+    font: normal 34rem 'Termina-Black';
+}
+
+
+
+
+
+/*** Left Box start ***/
+
+.left_box {
+    position: absolute;
+    width: 350rem;
+    height: 261rem;
+    top: 583rem;
+    left: 25rem;
+}
+
+.left_box .left_cont {
+    border-right: 3rem solid #d13239;
+    width: 151rem;
+    height: 101rem;
+    text-align: right;
+    color: #d13239;
+    font: 20rem 'Akzidenz-Grotesk-Bold';
+    padding-right: 10rem;
+}
+
+.left_box .right_cont {
+    width: 280rem;
+    height: 78rem;
+    position: absolute;
+    top: 0rem;
+    left: 168rem;
+}
+
+.left_box .right_cont .lhead_number {
+    font: normal 55rem 'Termina-Black';
+    color: #d13239;
+    line-height: 50rem;
+}
+
+.left_box .right_cont .lhead_text {
+    font: 22rem 'Akzidenz-Grotesk-Light';
+    color: #4a4a49;
+}
+
+.left_box .right_cont .lhead_text_bold {
+    font: 22rem 'Termina-Black';
+    color: #d13239;
+    width: 300rem;
+}
+
+.block_1, .block_2 {
+    margin-bottom: 20rem
+} 
+
+.block_2 > .right_cont {
+    top: 120rem;
+}
+
+.block_3 > .right_cont {
+    top: 238rem;
+}
+
+
+.block_3 > .left_cont {
+    height: 72rem;
+}
+
+
+
+
+
+/*** Left Box End ***/
+
+
+
+
+/*** Box 1 start ***/
+
+.box_1 {
+    position: absolute;
+    width: 165rem;
+    height: 209rem;
+    top: 664rem;
+    left: 586rem;
+    background-color: #fff;
+    border: 1rem solid #4a4a49;
+}
+
+.box_1 .t_head{
+    position: absolute;
+    font: 14rem 'Akzidenz-Grotesk-md';
+    color: #fff;
+    width: 100%;
+    height: 63rem;
+    top: 0rem;
+    left: 0rem;
+    background-color: #d13239;
+    padding: 5rem;
+}
+
+
+.box_1 .heading_1 {
+    position: absolute;
+    width: 180rem;
+    height: 50rem;
+    top: 76rem;
+    left: 4rem;
+}
+
+.box_1 .heading_1 .home_img{ 
+    position: absolute;
+    background: url(../media/images/home_img.png) no-repeat;
+    background-size: contain;
+    width: 49rem;
+    height: 80rem;
+    left: 0rem;
+    top: 0rem;
+}
+
+.box_1 .heading_1 .text_1{ 
+    position: absolute;
+    font: normal 17rem 'Termina-Black';
+    color: #d13239;
+    left: 58rem;
+    top: 0rem;
+}
+
+
+.box_1 .heading_1 .text_2{ 
+    position: absolute;
+    font: normal 11rem 'Terminamedium';
+    color: #4a4a49;
+    left: 58rem;
+    top: 38rem;
+}
+
+
+.box_1 .heading_2 {
+    position: absolute;
+    width: 180rem;
+    height: 50rem;
+    top: 137rem;
+    left: 4rem;
+}
+
+
+.box_1 .heading_2 .build_img{ 
+    position: absolute;
+    background: url(../media/images/build_img.png) no-repeat;
+    background-size: contain;
+    width: 49rem;
+    height: 80rem;
+    left: 0rem;
+    top: 0rem;
+}
+
+.box_1 .heading_2 .text_1{ 
+    position: absolute;
+    font: normal 17rem 'Termina-Black';
+    color: #d13239;
+    left: 58rem;
+    top: 0rem;
+}
+
+
+.box_1 .heading_2 .text_2{ 
+    position: absolute;
+    font: normal 9rem 'Terminamedium';
+    color: #4a4a49;
+    left: 58rem;
+    top: 38rem;
+}
+
+
+
+
+/*** Box 1 end ***/
+
+
+
+
+
+
+/*** P Profile End ***/
+
+
+
+.foot_t {
+    position: absolute;
+    bottom: 70rem;
+    font: 12rem 'Akzidenz-Grotesk-Light';
+    left: 50rem;
+}
+
+.foot_t p {
+    margin-bottom: 1rem;
+}
+
+
+
+
+.footer {
+    height: 4.2% !important;
+}

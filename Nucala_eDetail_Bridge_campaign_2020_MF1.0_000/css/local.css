@@ -1,0 +1,96 @@
+/* Local CSS */
+
+.referencesTest {
+    position: absolute;
+    top: 40rem;
+    left: 630rem;
+}
+
+.callTablesTable{
+	height:350rem;
+}
+.reach-block {
+    position: fixed;
+    right: -35rem;
+    top: 176rem;
+}
+
+.mainContent,
+.mainContent.guide {
+    border-top: 0rem solid #d13239 !important;
+}
+
+
+
+.reach-block li{
+    width: 100rem;
+    height: 60rem;
+    background-color: #FFF;
+    list-style: none;
+    font-size: 16rem;
+    margin-bottom: 8rem;
+    padding: 4rem 13rem;
+    border-radius: 50rem;
+    border: 3rem #d13239 solid;
+}
+.reach-block li.active{
+	color:#FFF;
+	 background-image: linear-gradient(to right, #eb6b14 , #eb6b14);
+	 opacity:0.9;
+}
+
+.reach-block li img {
+    width: 44rem;
+    border-radius: 20%;
+}
+
+
+/*** CSS VV ***/
+
+.logo_top {
+    width: 170rem;
+    height: 96rem;
+    background: url(../media/images/GSK_logo.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    z-index: 2;
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: none;
+}
+
+.pageHeading {
+    font: normal 43rem 'Termina-Black';
+    position: absolute;
+    color: #d13239;
+    top: 137rem;
+    left: 67rem;
+    line-height: 57rem;
+}
+
+.b_text {
+    font: normal 12rem 'Akzidenz-Grotesk-Regular';
+    position: absolute;
+    top: 493rem;
+    left: 67rem;
+    color: #4a4a49;
+    width: 370rem;
+}
+
+.b_text p{
+    margin-bottom: 10rem;
+}
+
+
+#r1, #r2, #r3, #r4, #r5 {
+  display: none;
+}
+
+
+
+.footer {
+    top: 709rem !important;
+    right: 20rem;
+    z-index: 20;
+}

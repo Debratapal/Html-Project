@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>GSK Master Template</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+</head>
+<body>
+<!-- This div is needed to pass the content to the slide -->
+
+<div id="objectionContent">
+        <div class="aeTitle">Nucala: jediná anti-IL-5 liečba s dátami o bezpečnosti získavanými z klinických skúšaní u pacientov s ťažkou eozinofilnou astmou po dobu až 4,8 roka<sup>2</sup></div>
+   <div class="r1_cont">Nucala je vo všeobecnosti dobre tolerovaná. V klinických skúšaniach bol pre liek Nucala
+    hlásený podobný výskyt nežiaducich udalostí ako pre placebo s výnimkou reakcií
+    v mieste podania injekcie (8 % oproti 3 %), ktoré sa vyskytovali hlavne počas prvých 3 injekčných podaní.<sup>1</sup></div>
+    <div class="head_red_ae">
+        <p>COSMEX: NAJČASTEJŠIE NEŽIADUCE UDALOSTI A ZÁVAŽNÉ NEŽIADUCE UDALOSTI
+            VYSKYTUJÚCE SA POČAS LIEČBY*<sup>2</sup> (N = 339)</p>
+    </div>
+    <div class="l_list_ae">
+        <ul>
+            <li>Nežiaduce udalosti, n (%) <span>315 (93)</span></li>
+            <li>Nazofaryngitída <span>143 (42)</span></li>
+            <li>Asthma <span>&nbsp;77 (23)</span></li>
+            <li>Bronchitída <span>&nbsp;64 (19)</span></li>
+            <li>Infekcia horných dýchacích<br>
+                ciest <span class="six">&nbsp;64 (19)</span></li>
+            <li>Sinusitída <span>&nbsp;62 (18)</span></li>
+            <li>Bolesť hlavy <span>&nbsp;57 (17)</span></li>
+            <li>Chrípka <span>&nbsp;44 (13)</span></li>
+        </ul>
+    </div>
+    <div class="r_list_ae">
+        <ul>
+            <li>Závažné nežiaduce udalosti, n (%) <span>84 (25)</span></li>
+            <li>Asthma  <span>34 (10)</span></li>
+            <li>Pneumónia  <span>&nbsp; 6 (2)</span></li>
+            <li>Nosová polypóza  <span>&nbsp; 4 (1)</span></li>
+            <li>Infekcia dýchacích ciest  <span>3 (0.9)</span></li>
+            <li>Zlomenina chodidla  <span>3 (0.9)</span></li>
+            <li>Infekcia dolných dýchacích ciest  <span>3 (0.9)</span></li>
+            <li>Osteonekróza  <span>2 (0.6)</span></li>
+            <li>Divertikulitída <span>2 (0.6) </span></li>
+            <li>Zlomenina  <span>2 (0.6)</span></li>
+            <li>Gastroezofageálna refluxná choroba  <span>2 (0.6)</span></li>
+            <li>Hyponatrémia  <span>2 (0.6)</span></li>
+            <li>Chrípka  <span>2 (0.6)</span></li>
+        </ul>
+    </div>
+
+    <div class="r2_cont"><span>Profil dlhodobej bezpečnosti a imunogenity</span><br>
+        lieku Nucala bol podobný profilu pozorovanému v placebom
+kontrolovaných skúšaniach u pacientov s astmou.<sup>2</sup></div>
+
+    <div class="footer_text_ae">
+        AE – nežiaduca udalosť, IL – interleukín, SAE – závažná nežiaduca udalosť<br>
+        * Nežiaduce udalosti vyskytujúce sa u ≥ 10 % populácie, závažné nežiaduce udalosti vyskytujúce sa u > 1 účastníka
+    </div>
+</div>
+<!--/ This div is needed to pass the content to the slide -->
+<script>
+    /**
+     * OnLoad event to send data to slide.
+     */
+    window.onload = function() {
+        var content = document.getElementById("objectionContent").innerHTML.toString();
+        window.parent.postMessage(JSON.stringify({ objection_content: content, scroll: (document.getElementsByClassName("noScroll").length === 0) }), '*');
+    };
+</script>
+</body>
+</html>

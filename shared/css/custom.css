@@ -1,0 +1,231 @@
+/**************************************************/
+/* GSK Veeva Master Template - Custom CSS         */
+/**************************************************/
+/* File version              1.8.1                */
+/* Last modified             27/11/2019           */
+/* Last modified by          Design Center        */
+/**************************************************/
+
+.topNav {
+    top: 50rem;
+    left: 80rem;
+    width: 864rem;
+    position: absolute;
+    border: 0;
+    -webkit-backface-visibility: hidden;
+    -webkit-transform-style: preserve-3d;
+    font: normal 16rem 'HelveticaLight';
+	z-index: 10;
+}
+
+.guideTitle {
+    position: absolute;
+    border: 0;
+    -webkit-backface-visibility: hidden;
+    -webkit-transform-style: preserve-3d;
+    font: normal 16rem 'HelveticaLight';
+}
+
+.quickLinkDialogMenu,
+.quickLinkDialogPi,
+.quickLinkDialogObjection,
+.quickLinkDialogQuickRes,
+.quickLinkDialogReferences,
+.quickLinkDialogGuide {
+    position: relative;
+    top: 0;
+    left: 0;
+    height: auto;
+    margin-top: 50rem;
+}
+
+.dialog {
+    overflow: hidden;
+}
+
+.dialog .topNav,
+.dialog .menuTitle,
+.dialog .piTitle,
+.dialog .quickresTitle,
+.dialog .objectionTitle,
+.dialog .guideTitle {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50rem;
+    padding: 0 5rem 5rem 5rem;
+    /* background-color: #fff; */
+}
+
+.dialog .menuTitle,
+.dialog .piTitle,
+.dialog .quickresTitle,
+.dialog .objectionTitle,
+.dialog .guideTitle {
+    font: normal 24rem/50rem 'HelveticaMedium';
+}
+
+.dialog .topNav #referencesPage {
+    margin-left: 0;
+}
+
+.dialog .topNav #referencesAll {
+    margin-left: 60rem;
+}
+
+.topNav #mtgskClose {
+    position: absolute;
+    background: url('../../shared/media/icons/icon_close.svg') 0 0 no-repeat;
+    background-size: 100%;
+    display:none;
+    width: 44rem;
+    height: 44rem;
+	right:30rem;
+}
+
+.topNav #referencesPage {
+    position: absolute;
+    background: url('../../shared/media/icons/ref_ind.svg') 0 0 no-repeat;
+    background-size: 100%;
+    margin-left: 0rem;
+    width: 44rem;
+    height: 44rem;
+}
+
+.topNav #referencesAll {
+    position: absolute;
+    background: url('../../shared/media/icons/ref_all.svg') 0 0 no-repeat;
+    background-size: 100%;
+    margin-left: 60rem;
+    width: 44rem;
+    height: 44rem;
+}
+
+.zincCode {
+    bottom: 85rem;
+    left: 25rem;
+    position: absolute;
+    border: 0;
+    font: normal 12rem 'HelveticaLight';
+    color: #888888;
+    z-index: 10;
+}
+.preparation {
+    bottom: 65rem;
+    left: 25rem;
+    position: absolute;
+    border: 0;
+    font: normal 12rem 'HelveticaLight';
+    color: #888;
+    z-index: 10;
+}
+
+#referencesScroller,
+#footnotesScroller {
+    height: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    max-height: 750rem;
+}
+
+.references,
+.footnotes {
+    position: relative;
+    width: 864rem;
+    margin-bottom:10rem;
+    overflow: hidden;
+}
+
+.references {
+    margin-top:30rem;
+}
+
+.mainContent .references {
+    margin-top: 0;
+}
+
+#referenceList,
+#footnotesList {
+    position: relative;
+	width: 98%;
+}
+
+
+#referenceList li {
+    position: relative;
+    left: 3rem;
+    font-size: 16rem;
+    margin-bottom: 10rem;
+    margin-left: 20rem;
+    margin-right: 10rem;
+}
+
+#footnotesList li {
+    position: relative;
+    left: 2rem;
+    font-size: 16rem;
+    margin-bottom:10rem;
+    list-style-type: none;
+}
+
+#referenceList li em,
+#footnotesList li em {
+    font-style:italic;
+}
+
+.dialogBody .references,
+.dialogBody .footnotes {
+    width: 95%;
+    margin-top: 0;
+}
+
+/* Allow custom reference numbering */
+#referenceList li.hasRefIndex {
+    position: relative;
+    list-style-type: none;
+    margin-left: 0;
+	padding-left:40rem;
+	text-indent:-40rem;
+}
+#referenceList li span.refIndex {
+    position:relative;
+    display: inline-block;
+    top: 0;
+    left: 0;
+    width: 30rem;
+	text-align: right;
+	margin-right: 10rem
+}
+
+#guideScroller {
+    position: relative;
+    left: 0;
+    top: 50rem;
+    height: 85%;
+    width: 100%;
+}
+
+#guideScrollerInner{ width:98%;}
+
+/* Portfolio Page Grid */
+.navBottom div.portfolioNav {
+    display: inline-block;
+}
+.gskRow {
+    position: relative;
+    width: 100%;
+    padding-bottom: 10rem;
+}
+
+.gskCol {
+    position: relative;
+    display: inline-block;
+}
+
+h5{font-size: 14rem;}
+
+.externalDialogBody{
+	position:absolute;
+	top:0rem;	
+}

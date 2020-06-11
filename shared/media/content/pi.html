@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>GSK Master Template</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+</head>
+<body>
+<!-- This div is needed to pass the content to the slide -->
+<div id="piContent">
+    <h4>LOREM IPSUM DOLOR SIT</h4>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing
+elit. In sit amet est pharetra, elementum urna in,
+consequat neque. Phasellus in tortor ante. Integer vel
+nunc sit amet ligula iaculis viverra. Aenean vel massa
+congue, semper felis at, placerat purus. Praesent
+tincidunt lorem in semper accumsan. Nulla eget
+metus ligula. Aenean eros risus, blandit vel tortor
+eget, suscipit viverra massa. Vestibulum eget erat
+sagittis, eleifend diam tempor, facilisis mauris. Donec
+in placerat nibh. Mauris quis eros vitae nibh mattis
+semper eu eget nisi. Proin sit amet porta metus. Sed
+venenatis ex ex, iaculis rutrum leo molestie ac. Donec
+sed ornare orci. Duis ipsum sapien, mattis et ipsum
+sed, semper aliquam massa.<br><br>
+Integer fermentum ut est et scelerisque. Proin
+vehicula tristique libero ac dictum. Etiam lobortis
+turpis quam, id bibendum ligula porta a. Nunc arcu
+nulla, faucibus ac nunc sit amet, faucibus varius
+purus. Nam vel vehicula lorem, sit amet sagittis tortor.
+Lorem ipsum dolor sit amet, consectetur adipiscing
+elit. Vestibulum vel odio eget enim suscipit sodales
+non in mi. Integer eu sapien eu urna varius eleifend.
+Sed vitae dolor tempor, eleifend urna eget, lobortis
+orci. Sed venenatis condimentum erat, sollicitudin
+bibendum nunc sodales et. Donec dapibus ut eros sit
+amet mattis.<br><br>
+Ut quis metus sit amet lorem pellentesque
+elementum. Donec nec sem bibendum, ultrices
+eros eget, cursus lectus. Suspendisse sit amet urna
+ipsum. Pellentesque tempus, nisi ut sodales varius,
+odio tellus porttitor arcu, in pretium metus ex sit
+amet massa. Etiam facilisis mauris a tempor tempus.
+Quisque ut condimentum augue, sit amet fermentum
+metus. Aliquam ut mi libero. Nullam vitae metus
+hendrerit, euismod dolor in, tincidunt ipsum.
+Lorem ipsum dolor sit amet, consectetur adipiscing
+elit. In sit amet est pharetra, elementum urna in,
+consequat neque. Phasellus in tortor ante. Integer vel
+nunc sit amet ligula iaculis viverra. Aenean vel massa
+congue, semper felis at, placerat purus. Praesent
+tincidunt lorem in semper accumsan. Nulla eget
+metus ligula. Aenean eros risus, blandit vel tortor
+eget, suscipit viverra massa. Vestibulum eget erat
+sagittis, eleifend diam tempor, facilisis mauris. Donec
+in placerat nibh. Mauris quis eros vitae nibh mattis
+semper eu eget nisi. Proin sit amet porta metus. Sed
+venenatis ex ex, iaculis rutrum leo molestie ac. Donec
+sed ornare orci. Duis ipsum sapien, mattis et ipsum
+sed, semper aliquam massa.<br><br>
+Integer fermentum ut est et scelerisque. Proin
+vehicula tristique libero ac dictum. Etiam lobortis
+turpis quam, id bibendum ligula porta a. Nunc arcu
+nulla, faucibus ac nunc sit amet, faucibus varius
+purus. Nam vel vehicula lorem, sit amet sagittis tortor.
+Lorem ipsum dolor sit amet, consectetur adipiscing
+elit. Vestibulum vel odio eget enim suscipit sodales
+non in mi. Integer eu sapien eu urna varius eleifend.
+Sed vitae dolor tempor, eleifend urna eget, lobortis
+orci. Sed venenatis condimentum erat, sollicitudin
+bibendum nunc sodales et. Donec dapibus ut eros sit
+amet mattis.<br><br>
+Ut quis metus sit amet lorem pellentesque
+elementum. Donec nec sem bibendum, ultrices
+eros eget, cursus lectus. Suspendisse sit amet urna
+ipsum. Pellentesque tempus, nisi ut sodales varius,
+odio tellus porttitor arcu, in pretium metus ex sit
+amet massa. Etiam facilisis mauris a tempor tempus.
+Quisque ut condimentum augue, sit amet fermentum
+metus. Aliquam ut mi libero. Nullam vitae metus
+hendrerit, euismod dolor in, tincidunt ipsum.
+    </p>
+
+    <div class="pink_text">REPLACE WITH LOCAL PI</div>
+   
+</div>
+<!--/ This div is needed to pass the content to the slide -->
+<script>
+    /**
+     * OnLoad event to send data to slide.
+     */
+    window.onload = function() {
+        var content = document.getElementById("piContent").innerHTML.toString();
+        window.parent.postMessage(JSON.stringify({ html_content: content }), '*');
+    };
+</script>
+</body>
+</html>

@@ -1,0 +1,472 @@
+/* Local CSS */
+
+.referencesTest {
+    position: absolute;
+    top: 40rem;
+    left: 630rem;
+}
+
+
+/*** CSS VV ***/
+
+.bg {
+    background-color: #eeedec;
+}
+
+
+.pageHeading {
+    font: normal 29rem 'Termina-Black';
+    position: absolute;
+    color: #d13239;
+    top: 81rem;
+    left: 131rem;
+    width: 840rem;
+}
+
+
+
+
+
+
+
+.sub_head {
+    font: normal 15rem 'Akzidenz-Grotesk-Bold';
+    position: absolute;
+    color: #d13239;
+    top: 225rem;
+    left: 131rem;
+}
+
+
+/*** Box 1 ***/
+
+.box_1 {
+    position: absolute;
+    width: 360rem;
+    height: 326rem;
+    top: 264rem;
+    left: 127rem;
+}
+
+.box_1 .arrow_img {
+    position: relative;
+    background: url(../media/images/arrow_img.png) no-repeat;
+    background-size: 161rem 300rem;
+    width: 180rem;
+    height: 326rem;
+
+}
+
+.box_1 .head_number{
+    font: normal 98rem 'Termina-Black';
+    color: #d13239;
+    position: absolute;
+    top: -14rem;
+    left: 50rem;
+
+}
+
+.box_1 .head_text {
+    font: normal 18rem 'Akzidenz-Grotesk-Md';
+    position: absolute;
+    color: #d13239;
+    top: 91rem;
+    left: 50rem;
+    border-bottom: 1rem solid #4a4a49;
+    height: 34rem;
+    width: 325rem;
+}
+
+.box_1 .para_text {
+    font: normal 14rem 'Akzidenz-Grotesk-Light';
+    position: absolute;
+    top: 133rem;
+    left: 50rem;
+    color: #4a4a49;
+}
+
+
+
+
+/*** Box 2 ***/
+
+.box_2 {
+    position: absolute;
+    width: 360rem;
+    height: 326rem;
+    top: 264rem;
+    left: 527rem;
+}
+
+.box_2 .arrow_img {
+    position: relative;
+    background: url(../media/images/arrow_img.png) no-repeat;
+    background-size: 161rem 300rem;
+    width: 180rem;
+    height: 326rem;
+
+}
+
+
+.box_2 .head_number{
+    font: normal 98rem 'Termina-Black';
+    color: #d13239;
+    position: absolute;
+    top: -14rem;
+    left: 50rem;
+
+}
+
+
+.box_2 .people_img {
+    position: absolute;
+    background: url(../media/images/people_img.png) no-repeat;
+    background-size: 96rem 93rem;
+    width: 96rem;
+    height: 93rem;
+    left: 330rem;
+    top: 34rem;
+
+}
+
+.box_2 .head_text {
+    font: normal 18rem 'Akzidenz-Grotesk-Md';
+    position: absolute;
+    color: #d13239;
+    top: 91rem;
+    left: 50rem;
+    border-bottom: 1rem solid #4a4a49;
+    height: 54rem;
+    width: 280rem;
+}
+
+.box_2 .para_text {
+    font: normal 14rem 'Akzidenz-Grotesk-Light';
+    position: absolute;
+    top: 154rem;
+    left: 50rem;
+    color: #4a4a49;
+}
+
+.box_2 .para_text span {
+    font: normal 14rem 'Akzidenz-Grotesk-Bold';
+}
+
+
+.button_b2 {
+    font: normal 10rem 'Akzidenz-Grotesk-Bold';
+    color: #d13239;
+    border: 2px solid #d13239;
+    border-radius: 5rem;
+    width: 200rem;
+    position: absolute;
+    top: 718rem;
+    left: 760rem;
+    padding: 5rem;
+    text-align: center;
+    z-index: 9999;
+}
+
+
+.box_2  .p1_img {
+    border-radius: 50%;
+    background: url(../media/images/p1_image.png) no-repeat;
+    position: absolute;
+    background-size: 110rem 110rem;
+    width: 110rem;
+    height: 110rem;
+    left: 190rem;
+    top: 281rem;
+}
+
+.box_2  .plus_icon {
+    border-radius: 50%;
+    background: url(../media/images/plus_icon.png) no-repeat;
+    position: absolute;
+    background-size: 44rem 44rem;
+    width: 44rem;
+    height: 44rem;
+    left: 270rem;
+    top: 340rem;
+}
+
+.box_2  .p2_img {
+    border-radius: 50%;
+    background: url(../media/images/p2_image.png) no-repeat;
+    position: absolute;
+    background-size: 110rem 110rem;
+    width: 110rem;
+    height: 110rem;
+    left: 347rem;
+    top: 281rem;
+}
+
+.box_2  .plus_icon_1 {
+    border-radius: 50%;
+    background: url(../media/images/plus_icon.png) no-repeat;
+    position: absolute;
+    background-size: 44rem 44rem;
+    width: 44rem;
+    height: 44rem;
+    left: 427rem;
+    top: 340rem;
+}
+
+
+
+
+.summ_content {
+    position: absolute;
+    top: 570rem;
+    left: 129rem;
+}
+
+.summ_content .head_summ {
+    font: 18rem 'Akzidenz-Grotesk-md';
+    color: #d13239;
+}
+
+.summ_content .text_summ {
+    font: 14rem 'Akzidenz-Grotesk-Light';
+    width : 520rem;
+    
+}
+
+
+
+
+.foot_t {
+    position: absolute;
+    bottom: 70rem;
+    font: 12rem 'Akzidenz-Grotesk-Light';
+
+}
+
+.foot_t p {
+    margin-bottom: 1rem;
+}
+
+
+
+
+
+/*** dialog CSS Start ***/
+
+
+
+
+.ui-dialog .ui-dialog-titlebar {
+    height: 0rem;
+    padding: 4rem;
+}
+
+
+.ui-dialog .ui-dialog-title {
+    font: 1rem/2rem HelveticaMedium;
+    width: 100%;
+}
+
+
+
+div#dialog {
+    height: 700rem !important;
+}
+
+#dialog .title_practice {
+    font: 29rem/42rem 'Termina-Black';
+    border-bottom: 1.5rem solid #4a4a49;
+    color: #d13239;
+    position: absolute;
+    top: 12rem;
+    width: 90%;
+    left: 58rem;
+    height: 90rem;
+}
+
+#dialog .popup_content {
+    position: absolute;
+    width: 90%;
+    height: 72%;
+    top: 122rem;
+    left: 58rem;
+}
+
+
+
+#dialog .popup_content .content_1 {
+    font: 17rem 'Akzidenz-Grotesk-md';
+    top: 0rem;
+    left: 58rem;
+    color: #d13239;
+    width: 330rem;
+    line-height: 20rem;
+}
+
+#dialog .popup_content .content_1a {
+    font: 17rem 'Akzidenz-Grotesk-md';
+    top: 0rem;
+    left: 369rem;
+    color: #d13239;
+    width: 330rem;
+    line-height: 20rem;
+    position: absolute;
+}
+
+#dialog .popup_content .content_1b {
+    font: 17rem 'Akzidenz-Grotesk-md';
+    top: 115rem;
+    left: 369rem;
+    color: #d13239;
+    width: 330rem;
+    line-height: 20rem;
+    position: absolute;
+}
+
+
+#dialog .popup_content .content_1 p {
+    font: 16rem 'Akzidenz-Grotesk-Light';
+    color: #4a4a49;
+}
+
+#dialog .popup_content .content_1a p {
+    font: 16rem 'Akzidenz-Grotesk-Light';
+    color: #4a4a49;
+}
+
+#dialog .popup_content .content_1b p {
+    font: 16rem 'Akzidenz-Grotesk-Light';
+    color: #4a4a49;
+}
+
+
+#dialog .popup_content .content_2 {
+    font: 17rem 'Akzidenz-Grotesk-md';
+    top: 0rem;
+    left: 58rem;
+    color: #d13239;
+    width: 310rem;
+    line-height: 20rem;
+}
+
+#dialog .popup_content .content_2 p {
+    font: 16rem 'Akzidenz-Grotesk-Light';
+    color: #4a4a49;
+}
+
+
+#dialog .popup_content .content_3 {
+    position: absolute;
+    top: 308rem;
+    left: 218rem;
+    font: 12rem 'Akzidenz-Grotesk-Light';
+    text-align: center;
+}
+
+#dialog .popup_content .down_arrow {
+    background: url(../media/images/down_arrow.png) no-repeat;
+    width: 44rem;
+    height: 44rem;
+    background-size: contain;
+    position: absolute;
+    top: 480rem;
+    left: 340rem;
+}
+
+
+#dialog .popup_content .up_arrow {
+    background: url(../media/images/up_arrow.png) no-repeat;
+    width: 44rem;
+    height: 44rem;
+    background-size: contain;
+    position: relative;
+    top: 0rem;
+    left: 340rem;
+}
+
+#dialog .popup_content .right_content {
+    position: absolute;
+    left: 330rem;
+    top: 40rem;
+}
+
+.tg {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.tg td {
+    font-family: 'Akzidenz-Grotesk-Light';
+    font-size: 12px;
+    padding: 3px 15px;
+    border-bottom: 1rem solid #c7c8ca !important;
+    color: #000;
+}
+
+.tg td:nth-child(1) {
+    width: 300rem;
+}
+
+.tg td:nth-child(2) {
+    width: 200rem;
+    vertical-align: bottom;
+}
+
+.tg th {
+    font-family: 'Akzidenz-Grotesk-Bold';
+    font-size: 12px;
+    font-weight: normal;
+    padding: 5px 5px;
+    color: #fff;
+    text-align: center;
+}
+
+.tg .tg-xogg {
+    background-color: #c0c0c0;
+    border-color: #c7c8ca;
+    text-align: left;
+    vertical-align: middle
+}
+
+.tg .tg-g59i {
+    background-color: #d13239;
+    text-align: center;
+    vertical-align: middle
+}
+
+.tg .tg-0pky {
+    border-color: inherit;
+    text-align: left;
+    vertical-align: bottom;
+}
+
+tr:nth-child(4)  {
+    line-height: 18rem;
+}
+
+
+tr:nth-child(10)  {
+    line-height: 18rem;
+}
+
+.tg-0pky ul {
+    list-style: none;
+}
+.tg-0pky ul li {
+    border-bottom: 1rem solid #c7c8ca;
+    height: 18rem;
+}
+
+.tg-0pky ul li:last-child {
+    border-bottom: 0rem solid #c7c8ca;
+}
+
+
+#dialog .popup_content .foot_text {
+    position: absolute;
+    bottom: 0rem;
+    font: 12rem 'Akzidenz-Grotesk-Light';
+   
+}
+
+
+/*** dialog CSS End ***/

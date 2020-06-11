@@ -1,0 +1,220 @@
+/* Local CSS */
+
+.referencesTest {
+    position: absolute;
+    top: 40rem;
+    left: 630rem;
+}
+
+
+/*** CSS VV ***/
+
+.bg {
+    background-color: #eeedec;
+}
+
+
+.pageHeading {
+    font: normal 29rem 'Termina-Black';
+    position: absolute;
+    color: #d13239;
+    top: 81rem;
+    left: 131rem;
+    width: 840rem;
+}
+
+
+
+
+
+/*** Box 1 start ***/
+
+.box_1 {
+    position: absolute;
+    width: 888rem;
+    height: 256rem;
+    top: 260rem;
+    left: 90rem;
+}
+
+.box_1 .block_1 {
+    position: absolute;
+    width: 329rem;
+    height: 256rem;
+    top: 0rem;
+    left: 0rem;
+}
+
+.box_1 .block_1 .dna_img {
+    background: url(../media/images/dna_img.png) no-repeat;
+    position: absolute;
+    background-size: contain;
+    width: 141rem;
+    height: 210rem;
+    left: 45rem;
+    top: -20rem;
+}
+
+.box_1 .block_1 .dna_text {
+    font: normal 18rem 'Akzidenz-Grotesk-Md';
+    position: absolute;
+    color: #d13239;
+    left: 4rem;
+    top: 114rem;
+}
+
+.box_1 .block_1 .dna_para {
+    font: normal 14rem 'Akzidenz-Grotesk-Light';
+    position: absolute;
+    left: 19rem;
+    top: 184rem;
+}
+
+.box_1 .block_1 .dna_para li {
+    list-style: square;
+   
+}
+
+
+.box_1 .block_1 .dna_arrow {
+    background: url(../media/images/dna_arrow.png) no-repeat;
+    position: absolute;
+    background-size: contain;
+    width: 70rem;
+    height: 120rem;
+    left: 252rem;
+    top: 73rem;
+}
+
+
+.box_1 .block_2 {
+    position: absolute;
+    width: 264rem;
+    height: 181rem;
+    top: 38rem;
+    left: 338rem;
+    border: 1rem solid #4a4a49;
+    padding: 10rem;
+}
+
+.box_1 .block_2 .head_number{
+    font: normal 38rem 'Termina-Black';
+    color: #d13239;
+    line-height: 35rem;
+    margin-bottom: 10rem;
+}
+
+.box_1 .block_2 .head_number span{ 
+    font: normal 28rem 'Termina-Black';
+}
+
+.box_1 .block_2 .head_text {
+    font: normal 18rem 'Akzidenz-Grotesk-Md';
+    color: #4a4a49;
+    margin-bottom: 10rem;
+}
+
+.box_1 .block_2 .head_text span {
+    color: #d13239;
+}
+
+
+ 
+.box_1 .block_3 {
+    position: absolute;
+    width: 264rem;
+    height: 181rem;
+    top: 38rem;
+    left: 619rem;
+    border: 1rem solid #4a4a49;
+    padding: 10rem;
+}
+
+.box_1 .block_3 .head_number{
+    font: normal 38rem 'Termina-Black';
+    color: #d13239;
+    line-height: 35rem;
+    margin-bottom: 10rem;
+}
+
+.box_1 .block_3 .head_number span{ 
+    font: normal 28rem 'Termina-Black';
+}
+
+.box_1 .block_3 .head_text {
+    font: normal 18rem 'Akzidenz-Grotesk-Md';
+    color: #4a4a49;
+    margin-bottom: 10rem;
+}
+
+.box_1 .block_3 .head_text span {
+    color: #d13239;
+}
+
+
+
+
+
+
+.box_1 .para_text {
+    font: normal 18rem 'Akzidenz-Grotesk-Light';
+    position: absolute;
+    top: 134rem;
+    left: 182rem;
+    color: #4a4a49;
+}
+
+.box_1 .para_text span {
+    font: normal 14rem 'Akzidenz-Grotesk-Bold';
+}
+
+/*** Box 1 end ***/
+
+
+
+
+
+/*** P Profile start ***/
+
+.p_profile {
+    position: absolute;
+    top: 261rem;
+    left: 464rem;
+}
+
+.p_profile .p1_img {
+    border-radius: 50%;
+    background: url(../media/images/p1_image.png) no-repeat;
+    position: absolute;
+    background-size: 110rem 110rem;
+    width: 110rem;
+    height: 110rem;
+    left: 407rem;
+    top: 281rem;
+}
+
+.p_profile .plus_icon {
+    border-radius: 50%;
+    background: url(../media/images/plus_icon.png) no-repeat;
+    position: absolute;
+    background-size: 44rem 44rem;
+    width: 44rem;
+    height: 44rem;
+    left: 487rem;
+    top: 340rem;
+}
+
+/*** P Profile End ***/
+
+
+
+.foot_t {
+    position: absolute;
+    bottom: 70rem;
+    font: 12rem 'Akzidenz-Grotesk-Light';
+    left: 90rem;
+}
+
+.foot_t p {
+    margin-bottom: 1rem;
+}

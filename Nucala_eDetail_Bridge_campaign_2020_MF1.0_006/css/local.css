@@ -1,0 +1,437 @@
+/* Local CSS */
+
+.referencesTest {
+    position: absolute;
+    top: 40rem;
+    left: 630rem;
+}
+
+
+/*** CSS VV ***/
+
+.bg {
+    background-color: #eeedec;
+}
+
+
+.pageHeading {
+    font: normal 29rem 'Termina-Black';
+    position: absolute;
+    color: #d13239;
+    top: 81rem;
+    left: 131rem;
+    width: 840rem;
+}
+
+
+.sub_head {
+    font: normal 15rem 'Akzidenz-Grotesk-Bold';
+    position: absolute;
+    color: #d13239;
+    top: 225rem;
+    left: 131rem;
+}
+
+
+
+/*** Tab head Start ***/
+
+.tab_head {
+    position: absolute;
+    top: 263rem;
+    left: 131rem;
+}
+
+.tab_head .tab_head1 {
+    font: normal 15rem 'Akzidenz-Grotesk-Bold';
+    position: absolute;
+    top: 0rem;
+    left: 0rem;
+    border-bottom: 4rem solid #4a4a49;
+    width: 180rem;
+    height: 28rem;
+}
+
+.tab_head .tab_head1_active {
+    font: normal 15rem 'Akzidenz-Grotesk-Bold';
+    position: absolute;
+    top: 0rem;
+    left: 0rem;
+    border-bottom: 4rem solid #d13239;
+    width: 180rem;
+    height: 28rem;
+    color: #d13239;
+}
+
+.down_arrow_1 {
+    position: absolute;
+    background: url(../media/images/down_arrow.png) no-repeat;
+    background-size: contain;
+    height: 11rem;
+    width: 20rem;
+    top: 28rem;
+    display: none;
+}
+
+.tab_head .tab_head2 {
+    font: normal 15rem 'Akzidenz-Grotesk-Bold';
+    position: absolute;
+    top: 0rem;
+    left: 205rem;
+    border-bottom: 4rem solid #4a4a49;
+    width: 180rem;
+    height: 28rem;
+}
+
+.tab_head .tab_head2_active {
+    font: normal 15rem 'Akzidenz-Grotesk-Bold';
+    position: absolute;
+    top: 0rem;
+    left: 205rem;
+    border-bottom: 4rem solid #d13239;
+    width: 180rem;
+    height: 28rem;
+    color: #d13239;
+}
+
+.down_arrow_2 {
+    position: absolute;
+    background: url(../media/images/down_arrow.png) no-repeat;
+    background-size: contain;
+    height: 11rem;
+    width: 20rem;
+    top: 28rem;
+    left: 205rem;
+    display: none
+}
+
+
+
+
+/*** Tab 1 head End ***/
+
+
+/*** Box 1 start ***/
+
+.box_1 {
+    position: absolute;
+    width: 630rem;
+    height: 276rem;
+    top: 312rem;
+    left: 129rem;
+}
+
+.box_1 .table1_content {
+    position: absolute;
+    width: 587rem;
+    height: 276rem;
+    top: 0rem;
+    left: 0rem;
+}
+
+.box_1 .table1_content .row_1 {
+    width: 100%;
+    height: 43rem;
+    background-color: #d13239;
+
+}
+
+.box_1 .table1_content .row_1 p{ 
+    color: #fff;
+    font: normal 13rem 'Arial';
+    font-weight: bold;
+    padding: 7rem 15rem;
+    text-align: center;
+}
+
+.box_1 .table1_content .row_2 {
+    width: 100%;
+    height: 54rem;
+    background-color: #c7c8ca;
+    font: Bold 12rem 'Arial';
+}
+
+.box_1 .table1_content .row_2 ul {
+    list-style: none;
+}
+
+.box_1 .table1_content .row_2 ul li {
+    list-style: none;
+    display: inline-block;
+    vertical-align: top;
+    position: absolute;
+    margin-top: 1%;
+}
+
+.box_1 .table1_content .row_2 ul li:nth-child(2) {
+    left: 352rem;
+}
+
+.box_1 .table1_content .row_2 ul li:nth-child(3) {
+    left: 433rem;
+}
+
+.box_1 .table1_content .row_2 ul li:nth-child(4) {
+    left: 513rem;
+    margin-top: 2%;
+}
+
+
+.box_1 .table1_content .row_3 {
+    width: 100%;
+    height: 54rem;
+    font: normal 12rem 'Arial';
+}
+
+.box_1 .table1_content .row_3 ul {
+    list-style: none;
+    border-bottom: 1rem solid #c7c8ca;
+    height: 20rem;
+}
+
+
+.box_1 .table1_content .row_3 ul li {
+    list-style: none;
+    display: inline-block;
+    position: absolute;
+    margin-top: 3rem;
+}
+
+.box_1 .table1_content .row_3 ul li:nth-child(1) {
+    left: 14rem;
+}
+
+.box_1 .table1_content .row_3 ul li:nth-child(2) {
+    left: 352rem;
+}
+
+.box_1 .table1_content .row_3 ul li:nth-child(3) {
+    left: 433rem;
+}
+
+.box_1 .table1_content .row_3 ul li:nth-child(4) {
+    left: 513rem;
+}
+
+.box_1 .magni_icon_1 {
+    position: absolute;
+    background: url(../media/images/magni_img.png) no-repeat;
+    background-size: contain;
+    width: 30rem;
+    height: 40rem;
+    top: 210rem;
+    left: 590rem;
+}
+
+
+/*** Box 1 end ***/
+
+
+
+
+
+
+
+
+/*** Box 2 start ***/
+
+.box_2 {
+    position: absolute;
+    width: 630rem;
+    height: 276rem;
+    top: 312rem;
+    left: 129rem;
+    display: none;
+}
+
+.box_2 .table2_content {
+    position: absolute;
+    width: 587rem;
+    height: 276rem;
+    top: 0rem;
+    left: 0rem;
+}
+
+.box_2 .table2_content .row_1 {
+    width: 100%;
+    height: 43rem;
+    background-color: #d13239;
+
+}
+
+.box_2 .table2_content .row_1 p{ 
+    color: #fff;
+    font: normal 13rem 'Arial';
+    font-weight: bold;
+    padding: 7rem 15rem;
+    text-align: center;
+}
+
+.box_2 .table2_content .row_2 {
+    width: 100%;
+    height: 54rem;
+    background-color: #c7c8ca;
+    font: Bold 12rem 'Arial';
+}
+
+.box_2 .table2_content .row_2 ul {
+    list-style: none;
+}
+
+.box_2 .table2_content .row_2 ul li {
+    list-style: none;
+    display: inline-block;
+    vertical-align: top;
+    position: absolute;
+    margin-top: 1%;
+}
+
+.box_2 .table2_content .row_2 ul li:nth-child(2) {
+    left: 282rem;
+}
+
+.box_2 .table2_content .row_2 ul li:nth-child(3) {
+    left: 352rem;
+}
+
+.box_2 .table2_content .row_2 ul li:nth-child(4) {
+    left: 433rem;
+}
+
+.box_2 .table2_content .row_2 ul li:nth-child(5) {
+    left: 513rem;
+    margin-top: 2%;
+}
+
+
+
+.box_2 .table2_content .row_3 {
+    width: 100%;
+    height: 54rem;
+    font: normal 12rem 'Arial';
+}
+
+.box_2 .table2_content .row_3 ul {
+    list-style: none;
+    border-bottom: 1rem solid #c7c8ca;
+    height: 20rem;
+}
+
+
+.box_2 .table2_content .row_3 ul li {
+    list-style: none;
+    display: inline-block;
+    position: absolute;
+    margin-top: 3rem;
+}
+
+.box_2 .table2_content .row_3 ul li:nth-child(1) {
+    left: 14rem;
+}
+
+.box_2 .table2_content .row_3 ul li:nth-child(2) {
+    left: 282rem;
+}
+
+.box_2 .table2_content .row_3 ul li:nth-child(3) {
+    left: 352rem;
+}
+
+.box_2 .table2_content .row_3 ul li:nth-child(4) {
+    left: 433rem;
+}
+
+.box_2 .table2_content .row_3 ul li:nth-child(5) {
+    left: 513rem;
+}
+
+.box_2 .magni_icon_2 {
+    position: absolute;
+    background: url(../media/images/magni_img.png) no-repeat;
+    background-size: contain;
+    width: 30rem;
+    height: 40rem;
+    top: 180rem;
+    left: 590rem;
+}
+
+
+.scaled {
+    transform: scale(1.2); /* Equal to scaleX(0.7) scaleY(0.7) */
+  }
+
+/*** Box 2 end ***/
+
+
+
+.summ_content {
+    position: absolute;
+    top: 600rem;
+    left: 129rem;
+}
+
+.summ_content .head_summ {
+    font: 18rem 'Akzidenz-Grotesk-md';
+    color: #d13239;
+}
+
+.summ_content .text_summ {
+    font: 12rem 'Akzidenz-Grotesk-Light';
+}
+
+
+
+
+
+
+
+
+
+/*** P Profile start ***/
+
+.p_profile {
+    position: absolute;
+    top: 261rem;
+    left: 464rem;
+}
+
+.p_profile .p1_img {
+    border-radius: 50%;
+    background: url(../media/images/p4_image.png) no-repeat;
+    position: absolute;
+    background-size: 110rem 110rem;
+    width: 110rem;
+    height: 110rem;
+    left: 407rem;
+    top: 281rem;
+}
+
+.p_profile .plus_icon {
+    border-radius: 50%;
+    background: url(../media/images/plus_icon.png) no-repeat;
+    position: absolute;
+    background-size: 44rem 44rem;
+    width: 44rem;
+    height: 44rem;
+    left: 487rem;
+    top: 340rem;
+}
+
+/*** P Profile End ***/
+
+
+.foot_t {
+    position: absolute;
+    bottom: 70rem;
+    font: 12rem 'Akzidenz-Grotesk-Light';
+
+}
+
+.foot_t p {
+    margin-bottom: 1rem;
+}
+
+
+#c9 {
+    display: none;
+}

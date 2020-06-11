@@ -1,0 +1,146 @@
+/* Local CSS */
+
+.referencesTest {
+    position: absolute;
+    top: 40rem;
+    left: 630rem;
+}
+
+
+/*** CSS VV ***/
+
+.bg {
+    background-color: #eeedec;
+}
+
+
+.pageHeading {
+    font: normal 29rem 'Termina-Black';
+    position: absolute;
+    color: #d13239;
+    top: 81rem;
+    left: 131rem;
+    width: 840rem;
+}
+
+
+.sub_head {
+    font: normal 15rem 'Akzidenz-Grotesk-Bold';
+    position: absolute;
+    color: #d13239;
+    top: 225rem;
+    left: 131rem;
+}
+
+
+/*** Box 1 start ***/
+
+.box_1 {
+    position: absolute;
+    width: 540rem;
+    height: 326rem;
+    top: 340rem;
+    left: 216rem;
+}
+
+.box_1 .build_img {
+    position: absolute;
+    background: url(../media/images/pilles_img.png) no-repeat;
+    background-size: contain;
+    width: 78rem;
+    height: 80rem;
+    top: 91rem;
+    left: 56rem;
+
+}
+
+.box_1 .arrow_img {
+    position: relative;
+    background: url(../media/images/arrow_img.png) no-repeat;
+    background-size: 166rem 209rem;
+    width: 180rem;
+    height: 326rem;
+
+}
+
+.box_1 .head_number{
+    font: normal 98rem 'Termina-Black';
+    color: #d13239;
+    position: absolute;
+    top: -14rem;
+    left: 182rem;
+
+}
+
+.box_1 .head_text {
+    font: normal 18rem 'Akzidenz-Grotesk-Md';
+    position: absolute;
+    color: #d13239;
+    top: 91rem;
+    left: 182rem;
+    border-bottom: 1rem solid #4a4a49;
+    height: 34rem;
+    width: 345rem;
+}
+
+.box_1 .para_text {
+    font: normal 14rem 'Akzidenz-Grotesk-Light';
+    position: absolute;
+    top: 134rem;
+    left: 182rem;
+    color: #4a4a49;
+}
+
+.box_1 .para_text span {
+    font: normal 14rem 'Akzidenz-Grotesk-Bold';
+}
+
+/*** Box 1 end ***/
+
+
+
+
+
+/*** P Profile start ***/
+
+.p_profile {
+    position: absolute;
+    top: 261rem;
+    left: 464rem;
+}
+
+.p_profile .p1_img {
+    border-radius: 50%;
+    background: url(../media/images/p3_image.png) no-repeat;
+    position: absolute;
+    background-size: 110rem 110rem;
+    width: 110rem;
+    height: 110rem;
+    left: 407rem;
+    top: 281rem;
+}
+
+.p_profile .plus_icon {
+    border-radius: 50%;
+    background: url(../media/images/plus_icon.png) no-repeat;
+    position: absolute;
+    background-size: 44rem 44rem;
+    width: 44rem;
+    height: 44rem;
+    left: 487rem;
+    top: 340rem;
+}
+
+/*** P Profile End ***/
+
+
+.foot_t {
+    position: absolute;
+    bottom: 70rem;
+    font: 12rem 'Akzidenz-Grotesk-Light';
+
+}
+
+.foot_t p {
+    margin-bottom: 1rem;
+}

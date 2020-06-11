@@ -1,0 +1,540 @@
+/* Local CSS */
+
+.referencesTest {
+    position: absolute;
+    top: 40rem;
+    left: 630rem;
+}
+
+
+/*** CSS VV ***/
+
+.bg {
+    background-color: #eeedec;
+}
+
+
+.pageHeading {
+    font: normal 29rem 'Termina-Black';
+    position: absolute;
+    color: #d13239;
+    top: 81rem;
+    left: 131rem;
+    width: 840rem;
+}
+
+
+
+
+
+
+
+.sub_head {
+    font: normal 15rem 'Akzidenz-Grotesk-Bold';
+    position: absolute;
+    color: #d13239;
+    top: 225rem;
+    left: 131rem;
+}
+
+
+/*** Box 1 ***/
+
+.box_1 {
+    position: absolute;
+    width: 360rem;
+    height: 326rem;
+    top: 264rem;
+    left: 127rem;
+}
+
+.box_1 .arrow_img {
+    position: relative;
+    background: url(../media/images/arrow_img.png) no-repeat;
+    background-size: 161rem 280rem;
+    width: 180rem;
+    height: 326rem;
+
+}
+
+.box_1 .head_number{
+    font: normal 83rem 'Termina-Black';
+    color: #d13239;
+    position: absolute;
+    top: -3rem;
+    left: 50rem;
+}
+
+.box_1 .head_text {
+    font: normal 18rem 'Akzidenz-Grotesk-Md';
+    position: absolute;
+    color: #d13239;
+    top: 91rem;
+    left: 50rem;
+    border-bottom: 1rem solid #4a4a49;
+    height: 54rem;
+    width: 285rem;
+}
+
+.box_1 .para_text {
+    font: normal 14rem 'Akzidenz-Grotesk-Light';
+    position: absolute;
+    top: 154rem;
+    left: 50rem;
+    color: #4a4a49;
+}
+
+
+
+
+/*** Box 2 ***/
+
+.box_2 {
+    position: absolute;
+    width: 360rem;
+    height: 326rem;
+    top: 264rem;
+    left: 467rem;
+}
+
+
+.box_2 .head_number{
+    font: normal 83rem 'Termina-Black';
+    color: #d13239;
+    position: absolute;
+    top: -3rem;
+    left: 50rem;
+}
+
+
+.box_2 .people_img {
+    position: absolute;
+    background: url(../media/images/people_img.png) no-repeat;
+    background-size: 96rem 93rem;
+    width: 96rem;
+    height: 93rem;
+    left: 396rem;
+    top: 34rem;
+
+}
+
+.box_2 .head_text {
+    font: normal 18rem 'Akzidenz-Grotesk-Md';
+    position: absolute;
+    color: #d13239;
+    top: 91rem;
+    left: 50rem;
+    border-bottom: 1rem solid #4a4a49;
+    height: 54rem;
+    width: 445rem;
+}
+
+.box_2 .para_text {
+    font: normal 14rem 'Akzidenz-Grotesk-Light';
+    position: absolute;
+    top: 154rem;
+    left: 50rem;
+    color: #4a4a49;
+}
+
+.box_2 .para_text span {
+    font: normal 14rem 'Akzidenz-Grotesk-Bold';
+}
+
+
+.box_2 .button_b2 {
+    font: normal 10rem 'Akzidenz-Grotesk-Bold';
+    color: #d13239;
+    border: 2px solid #d13239;
+    border-radius: 5rem;
+    width: 143rem;
+    position: absolute;
+    top: 248rem;
+    left: 50rem;
+    padding: 5rem;
+    text-align: center;
+}
+
+
+.box_2  .p1_img {
+    border-radius: 50%;
+    background: url(../media/images/p1_image.png) no-repeat;
+    position: absolute;
+    background-size: 110rem 110rem;
+    width: 110rem;
+    height: 110rem;
+    left: 407rem;
+    top: 281rem;
+}
+
+.box_2  .plus_icon {
+    border-radius: 50%;
+    background: url(../media/images/plus_icon.png) no-repeat;
+    position: absolute;
+    background-size: 44rem 44rem;
+    width: 44rem;
+    height: 44rem;
+    left: 487rem;
+    top: 340rem;
+}
+
+
+
+.foot_t {
+    position: absolute;
+    bottom: 70rem;
+    font: 12rem 'Akzidenz-Grotesk-Light';
+
+}
+
+.foot_t p {
+    margin-bottom: 1rem;
+}
+
+
+
+
+.ui-dialog .ui-dialog-titlebar {
+    height: 0rem;
+    padding: 4rem;
+}
+
+
+.ui-dialog .ui-dialog-title {
+    font: 1rem/2rem HelveticaMedium;
+    width: 100%;
+}
+
+/*** dialog CSS Start ***/
+
+div#dialog {
+    height: 700rem !important;
+}
+
+#dialog  .title_practice {
+    font: 29rem/42rem 'Termina-Black';
+    border-bottom: 1.5rem solid #4a4a49;
+    color: #d13239;
+    position: absolute;
+    top: 45rem;
+    width: 90%;
+    left: 58rem;
+    height: 58rem;
+}
+
+#dialog .popup_content {
+    position: absolute;
+    width: 94%;
+    height: 72%;
+    top: 122rem;
+    left: 26rem;
+}
+
+
+#dialog .popup_content .scale_img {
+    background: url(../media/images/scale_img.png) no-repeat;
+    position: absolute;
+    background-size: 780rem 50rem;
+    width: 800rem;
+    height: 50rem;
+    left: 45rem;
+    top: 16rem;
+}
+
+#dialog .popup_content .scale_img ul {
+    list-style: none;
+    font: 18rem 'Akzidenz-Grotesk-Bold';
+    position: absolute;
+    top: 60rem;
+    left: -5rem;
+}
+
+
+#dialog .popup_content .scale_img ul li {
+    display: inline-block;
+    margin-right: 737rem;
+}
+
+#dialog .popup_content .scale_img ul li:nth-child(2) {
+    margin-right: 0rem;
+    margin-left: 25rem;
+
+}
+
+#dialog .popup_content .content_2 {
+    font: 17rem 'Akzidenz-Grotesk-md';
+    position: absolute;
+    top: 175rem;
+    left: 217rem;
+    text-align: center;
+    color: #d13239;
+    border-bottom: 1rem solid #4a4a49;
+    padding-bottom: 9rem;
+    width: 370rem;
+}
+
+#dialog .popup_content .content_2 span  {
+    font: 70rem 'Termina-Black';
+    line-height: 60rem;
+}
+
+#dialog .popup_content .content_2 .text_change  {
+    font: 17rem 'Akzidenz-Grotesk-md' !important;
+    line-height: 120rem; 
+}
+
+
+#dialog .popup_content .content_3 {
+    position: absolute;
+    top: 308rem;
+    left: 218rem;
+    font: 12rem 'Akzidenz-Grotesk-Light';
+    text-align: center;
+}
+
+
+#dialog .popup_content .foot_text {
+    position: absolute;
+    bottom: 0rem;
+    font: 12rem 'Akzidenz-Grotesk-Light';
+}
+
+
+
+input[type=range] {
+    -webkit-appearance: none;
+    margin: 20px 0;
+    width: 100%;
+    background: transparent;
+}
+input[type=range]:focus {
+    outline: none;
+    background: transparent;
+}
+input[type=range]::-webkit-slider-runnable-track {
+    width: 100%;
+    height: 4px;
+    cursor: pointer;
+    animate: 0.2s;
+    background: transparent;
+    border-radius: 25px;
+}
+input[type=range]::-webkit-slider-thumb {
+    height: 33px;
+    width: 33px;
+    border-radius: 50%;
+    background: #d13239;
+    cursor: pointer;
+    -webkit-appearance: none;
+    margin-top: -14px;
+}
+input[type=range]:focus::-webkit-slider-runnable-track {
+    background: transparent;
+}
+.range-wrap{
+    width: 810px;
+    position: absolute;
+    top: 17rem;
+    left: 30rem;
+    background: transparent;
+    z-index: 99;
+}
+.range-value{
+    position: absolute;
+    top: 59rem;
+}
+.range-value span{
+    text-align: center;  
+    display: block;
+    position: absolute;
+    left: 50%;
+    font: 18rem 'Akzidenz-Grotesk-Bold';
+    color: #d13239;
+    
+}
+
+
+
+ 
+
+/*** dialog CSS End ***/
+
+
+
+/*** Patient dialog CSS Start ***/
+
+div#dialog1 {
+    height: 700rem !important;
+}
+
+
+#dialog1  .title_practice {
+    font: 29rem/42rem 'Termina-Black';
+    border-bottom: 1.5rem solid #4a4a49;
+    color: #d13239;
+    position: absolute;
+    top: 12rem;
+    width: 90%;
+    left: 58rem;
+    height: 90rem;
+}
+
+#dialog1 .popup_content {
+    position: absolute;
+    width: 94%;
+    height: 72%;
+    top: 122rem;
+    left: 26rem;
+}
+
+
+#dialog1 .popup_content .p_profile {
+    position: absolute;
+    width: 96%;
+    height: 100%;
+    left: 26rem;
+    top: 30rem;
+}
+
+
+#dialog1 .popup_content .p_profile .left_content {
+    width :300rem;
+    height: 100%;
+}
+
+#dialog1 .popup_content .p_profile .left_content .p1_img {
+    background: url(../media/images/p1_image.png) no-repeat;
+    position: absolute;
+    background-size: contain;
+    width: 270rem;
+    height: 270rem;
+    left: 10rem;
+    top: 10rem;
+}
+
+
+#dialog1 .popup_content .p_profile .left_content .testi_t  {
+    font: 20rem 'Akzidenz-Grotesk-Bold';
+    padding: 8rem;
+    list-style: square;
+    color: #d13239;
+    line-height: 24rem;
+    position: absolute;
+    top: 281rem;
+    left: 30rem;
+}
+
+#dialog1 .popup_content .p_profile .left_content .testi_t::before {
+    content: '“';
+    position: absolute;
+    left: -29rem;
+    font-size: 64rem;
+    line-height: 48rem;
+    margin-top: 0;
+}
+
+#dialog1 .popup_content .p_profile .left_content .testi_t::after {
+    content: '”';
+    position: absolute;
+    left: 100rem;
+    font-size: 64rem;
+    line-height: 58rem;
+    margin-top: 0;
+}
+
+
+#dialog1 .popup_content .p_profile .right_content {
+    width :530rem;
+    height: 425rem;
+    position: absolute;
+    top: 0rem;
+    left: 300rem;
+}
+
+
+#dialog1 .popup_content .p_profile .right_content .p_info_t {
+    font: 18rem 'Akzidenz-Grotesk-Bold';
+    color: #d13239;
+    padding-top: 9rem;
+}
+
+#dialog1 .popup_content .p_profile .right_content .p_info_detail {
+    font: 12.6rem 'Akzidenz-Grotesk-Bold';
+    color: #4a4a49;
+    padding-top: 9rem;
+    border-bottom: 1rem solid #4a4a49;
+    height: 33rem;
+
+}
+
+#dialog1 .popup_content .p_profile .right_content .p_info_detail span {
+    font: 12.6rem 'Akzidenz-Grotesk-Light';
+}
+
+#dialog1 .popup_content .p_profile .right_content .p_info_detail ul {
+    list-style: none;
+}
+
+
+#dialog1 .popup_content .p_profile .right_content .p_info_detail ul li {
+    display: inline-block;
+    margin-right: 5rem;
+}
+
+#dialog1 .popup_content .p_profile .right_content .p_info_detail ul li:nth-child(5) {
+    display: inline-block;
+    margin-right: 0rem;
+}
+
+
+#dialog1 .popup_content .p_profile .right_content .block_1,.block_2,.block_3,.block_4,.block_5 {
+    width: 280rem;
+    margin-top: 10rem;
+    margin-bottom: 20rem;
+}
+
+#dialog1 .popup_content .p_profile .right_content .head_t {
+    font: 17rem 'Akzidenz-Grotesk-md';
+    color: #d13239;
+    margin-bottom: 2rem;
+}
+
+#dialog1 .popup_content .p_profile .right_content .b_content {
+    font: 14rem 'Akzidenz-Grotesk-light';
+    color: #4a4a49;
+}
+
+#dialog1 .popup_content .p_profile .right_content .b_content ul {
+    list-style: square;
+}
+
+#dialog1 .popup_content .p_profile .right_content .b_content ul li {
+    margin-left: 15rem;
+    line-height: 18rem;
+}
+
+#dialog1 .popup_content .p_profile .right_content .block_4 {
+    position: absolute;
+    top: 63rem;
+    left: 280rem;
+}
+
+#dialog1 .popup_content .p_profile .right_content .block_5 {
+    position: absolute;
+    top: 140rem;
+    left: 280rem;
+}
+
+
+#dialog1 .popup_content .foot_text {
+    position: absolute;
+    bottom: 0rem;
+    font: 12rem 'Akzidenz-Grotesk-Light';
+}
+
+
+.ui-dialog.ui-corner-all.ui-widget.ui-widget-content.ui-front, .popup_like {
+    animation: none .5s ease !important;
+}
+
+/*** Patient dialog CSS Start ***/

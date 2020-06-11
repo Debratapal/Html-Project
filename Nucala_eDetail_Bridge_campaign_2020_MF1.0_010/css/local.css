@@ -1,0 +1,399 @@
+/* Local CSS */
+
+.referencesTest {
+    position: absolute;
+    top: 40rem;
+    left: 630rem;
+}
+
+
+/*** CSS VV ***/
+
+.bg {
+    background-color: #eeedec;
+}
+
+
+
+.pageHeading {
+    font: normal 29rem 'Termina-Black';
+    position: absolute;
+    color: #d13239;
+    top: 81rem;
+    left: 131rem;
+    width: 840rem;
+}
+
+
+.sub_head {
+    font: normal 15rem 'Akzidenz-Grotesk-Bold';
+    position: absolute;
+    color: #d13239;
+    top: 225rem;
+    left: 131rem;
+}
+
+
+/*** Box 1 start ***/
+
+.box_1 {
+    position: absolute;
+    width: 640rem;
+    height: 376rem;
+    top: 274rem;
+    left: 124rem;
+}
+
+
+
+.box_1 .graph_bg {
+    position: relative;
+    background: url(../media/images/graph_bg.png) no-repeat;
+    background-size: 576rem 283rem;
+    width: 640rem;
+    height: 326rem;
+    background-position: 49rem 7rem;
+}
+
+
+.box_1 .graph_bg .y-text {
+    position: absolute;
+    font: bold 12rem 'Arial';
+    color: #000;
+    -ms-transform: rotate(270deg);
+    transform: rotate(270deg);
+    top: 120rem;
+    left: -38rem;
+}
+
+.box_1 .graph_bg .y-number {
+    font: bold 12rem 'Arial';
+    position: absolute;
+    left: 37rem;
+    top: 9rem;
+}
+
+.box_1 .graph_bg .y-number ul {
+    list-style: none;
+}
+
+.box_1 .graph_bg .y-number ul li {
+    margin-bottom: 26rem;
+}
+
+.box_1 .graph_bg .x-text {
+    font: bold 12rem 'Arial';
+    position: absolute;
+    left: 74rem;
+    top: 264rem;
+}
+
+
+.box_1 .graph_bg .x-text ul {
+    list-style: none;
+}
+
+.box_1 .graph_bg .x-text li {
+    margin-right: 36rem;
+    display: inline-block;
+}
+
+.box_1 .graph_bg .x-text li:nth-child(3) {
+    margin-right: 25rem;
+}
+
+.box_1 .graph_bg .x-text li:nth-child(4) {
+    margin-right: 17rem;
+}
+
+.box_1 .graph_bg .x-text li:nth-child(5) {
+    margin-right: 0rem;
+}
+
+
+.box_1 .graph_bg .x-text_2 {
+    font: bold 12rem 'Arial';
+    position: absolute;
+    left: 184rem;
+    top: 292rem;
+    text-align: center;
+}
+
+
+.box_1 .graph_bg .x-text_2 ul {
+    list-style: none;
+}
+
+.box_1 .graph_bg .x-text_2 li {
+    margin-right: 21rem;
+    display: inline-block;
+}
+
+.box_1 .graph_bg .x-text_2 li:nth-child(3) {
+    margin-left: 50rem;
+    margin-right: 0rem;
+}
+
+
+.box_1 .graph_bg .x-text_3 {
+    font: bold 12rem 'Arial';
+    position: absolute;
+    left: 144rem;
+    top: 338rem;
+    text-align: center;
+}
+
+
+.box_1 .graph_bg .bar_1 {
+    position: absolute;
+    width: 81rem;
+    height: 201rem;
+    background-color: #c7c8ca;
+    bottom: 69rem;
+    left: 78rem;
+    padding: 10rem;
+    text-align: center;
+    /* animation-name: bar1;
+    animation-duration: 1s; */
+}
+
+@keyframes bar1 {
+    0%   { height: 0rem;}
+    100% { height: 201rem;}
+  }
+
+.box_1 .graph_bg .bar_2 {
+    position: absolute;
+    width: 42rem;
+    height: 147rem;
+    background-color: #4a4a49;
+    bottom: 69rem;
+    left: 183rem;
+    padding: 5rem;
+    text-align: center;
+    /* animation-name: bar2;
+    animation-duration: 1s; */
+}
+
+@keyframes bar2 {
+    0%   { height: 0rem;}
+    100% { height: 147rem;}
+  }
+
+
+
+.box_1 .graph_bg .bar_3 {
+    position: absolute;
+    width: 42rem;
+    height: 35rem;
+    background-color: #d13239;
+    bottom: 69rem;
+    left: 225rem;
+    padding: 5rem;
+    text-align: center;
+    /* animation-name: bar3;
+    animation-duration: 1s; */
+}
+
+@keyframes bar3 {
+    0%   { height: 0rem;}
+    100% { height: 35rem;}
+  }
+
+
+
+.box_1 .graph_bg .bar_4 {
+    position: absolute;
+    width: 42rem;
+    height: 40rem;
+    background-color: #d13239;
+    bottom: 69rem;
+    left: 337rem;
+    padding: 5rem;
+    text-align: center;
+    /* animation-name: bar4;
+    animation-duration: 1s; */
+}
+
+@keyframes bar4 {
+    0%   { height: 0rem;}
+    100% { height: 40rem;}
+  }
+
+
+.box_1 .graph_bg .bar_5 {
+    position: absolute;
+    width: 42rem;
+    height: 34rem;
+    background-color: #d13239;
+    bottom: 69rem;
+    left: 450rem;
+    padding: 5rem;
+    text-align: center;
+    /* animation-name: bar5;
+    animation-duration: 1s; */
+}
+
+@keyframes bar5 {
+    0%   { height: 0rem;}
+    100% { height: 34rem;}
+  }
+
+
+
+.box_1 .graph_bg .bar_6 {
+    position: absolute;
+    width: 42rem;
+    height: 38rem;
+    background-color: #d13239;
+    bottom: 69rem;
+    left: 564rem;
+    padding: 5rem;
+    text-align: center;
+    /* animation-name: bar6;
+    animation-duration: 1s; */
+}
+
+@keyframes bar6 {
+    0%   { height: 0rem;}
+    100% { height: 38rem;}
+}
+
+
+.box_1 .graph_bg span {
+    color: #fff;
+    font: Bold 14rem 'Arial';
+}
+
+
+
+.box_1 .graph_bg .summery_bullet {
+    font: normal 13rem 'Akzidenz-Grotesk-Bold';
+    position: absolute;
+    left: 740rem;
+    top: 6rem;
+    width: 200rem;
+}
+
+.box_1 .graph_bg .summery_bullet .b1_img {
+    position: absolute;
+    background: url(../media/images/bullet_summery.png) no-repeat;
+    background-size: contain;
+    width: 9rem;
+    height: 70rem;
+    background-position: 0rem 3rem;
+}
+
+
+.box_1 .graph_bg .summery_bullet ul {
+    list-style: none;
+    margin-left: 17rem;
+}
+
+.box_1 .graph_bg .summery_bullet li {
+    margin-bottom: 4rem;
+}
+
+/* .box_1 .graph_bg .bar_1 span:nth-child(1) {
+    margin-left: 33%;
+} */
+
+
+
+
+.box_1 .head_number{
+    font: normal 30rem 'Termina-Black';
+    color: #d13239;
+    position: absolute;
+    top: 3rem;
+    left: 450rem;
+
+}
+
+.box_1 .head_text {
+    font: normal 16rem 'Akzidenz-Grotesk-Md';
+    position: absolute;
+    color: #d13239;
+    top: 35rem;
+    left: 450rem;
+    border-bottom: 1rem solid #4a4a49;
+    height: 63rem;
+    width: 166rem;
+}
+
+.box_1 .para_text {
+    font: normal 14rem 'Akzidenz-Grotesk-Light';
+    position: absolute;
+    top: 134rem;
+    left: 182rem;
+    color: #4a4a49;
+}
+
+.box_1 .para_text span {
+    font: normal 14rem 'Akzidenz-Grotesk-Bold';
+}
+
+.box_1 .magni_icon_2 {
+    position: absolute;
+    background: url(../media/images/magni_img.png) no-repeat;
+    background-size: contain;
+    width: 30rem;
+    height: 40rem;
+    top: 200rem;
+    left: 630rem;
+}
+
+
+.scaled {
+    transform: scale(1.2); /* Equal to scaleX(0.7) scaleY(0.7) */
+  }
+
+/*** Box 1 end ***/
+
+
+
+
+
+/*** P Profile start ***/
+
+.p_profile {
+    position: absolute;
+    top: 261rem;
+    left: 464rem;
+}
+
+.p_profile .p1_img {
+    border-radius: 50%;
+    background: url(../media/images/p1_image.png) no-repeat;
+    position: absolute;
+    background-size: 110rem 110rem;
+    width: 110rem;
+    height: 110rem;
+    left: 407rem;
+    top: 281rem;
+}
+
+.p_profile .plus_icon {
+    border-radius: 50%;
+    background: url(../media/images/plus_icon.png) no-repeat;
+    position: absolute;
+    background-size: 44rem 44rem;
+    width: 44rem;
+    height: 44rem;
+    left: 487rem;
+    top: 340rem;
+}
+
+/*** P Profile End ***/
+
+
+.foot_t {
+    position: absolute;
+    bottom: 70rem;
+    font: 12rem 'Akzidenz-Grotesk-Light';
+
+}
+
+.foot_t p {
+    margin-bottom: 1rem;
+}
